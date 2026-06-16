@@ -278,4 +278,4 @@ gantt
 ---
 
 *Vikash Jaiswal | vikashjaiswal.486@gmail.com | +91-8588800287*
-*github.com/vikas0486 | AI FORGE: github.com/vikas0486/AI-Forge*
+*github.com/vikas0486 | AI FORGE: https://github.com/vikas0486/AI-Forge
