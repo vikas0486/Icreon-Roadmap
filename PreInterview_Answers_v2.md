@@ -7,7 +7,10 @@
 
 When I joined Devo as CloudOps in April 2023, the situation was messy — 19+ Kubernetes clusters across 7 global regions, hundreds of EC2 data nodes, and engineers constantly re-explaining the same platform context every single incident. Tools existed but nothing was connected. Alerts were noisy, deployments were manual, and every new engineer needed weeks just to feel confident.
 
-I fixed this in three phases. First, I built a centralized observability layer (Prometheus + OpenTelemetry + Grafana) with GitOps-managed alert configs — so alerts were code, not chaos. Second, I standardized all infrastructure with Terraform and Terragrunt across APAC, EU, and US — one change, three regions, same result every time. Third, I designed and built **AI FORGE** — a Claude AI-powered operational brain trained on Devo's entire platform architecture, so any engineer could debug Kubernetes, generate LINQ queries, or get runbook guidance instantly, without seeing a single raw credential.
+I fixed this in three phases. 
+First, I built a centralized observability layer (Prometheus + OpenTelemetry + Grafana) with GitOps-managed alert configs — so alerts were code, not chaos. 
+Second, I standardized all infrastructure with Terraform and Terragrunt across APAC, EU, and US — one change, three regions, same result every time. 
+Third, I designed and built **AI FORGE** — a Claude AI-powered operational brain trained on Devo's entire platform architecture, so any engineer could debug Kubernetes, generate LINQ queries, or get runbook guidance instantly, without seeing a single raw credential.
 
 Result? Troubleshooting time down ~60%, storage incidents went from 45-minute manual pages to 3-minute zero-touch automation, and new engineers became productive in days instead of weeks.
 
